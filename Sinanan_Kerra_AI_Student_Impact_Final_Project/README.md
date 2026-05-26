@@ -51,55 +51,6 @@ The Streamlit app reads from that table.
 
 ## Databricks Instructions
 
-### Step 1: Upload the CSV
-
-Upload `ai_student_impact_dataset.csv` into Databricks.
-
-Recommended path:
-
-```text
-/FileStore/tables/ai_student_impact_dataset.csv
-```
-
-If Databricks gives you a different path, update the `csv_path` variable in the notebook.
-
-### Step 2: Import and Run the Notebook
-
-Import:
-
-```text
-Sinanan_Kerra_AI_Student_Impact_Final_Project.py
-```
-
-Run every cell. The notebook will create:
-
-```sql
-ai_student_impact_clean
-```
-
-### Step 3: Create the Databricks App
-
-Create a new Streamlit Databricks App.
-
-Replace the default files with:
-
-- `app.py`
-- `app.yaml`
-- `requirements.txt`
-
-### Step 4: Update app.yaml
-
-Replace this text:
-
-```text
-PASTE_YOUR_SQL_WAREHOUSE_ID_HERE
-```
-
-with your actual SQL warehouse ID.
-
-### Step 5: Deploy
-
-Deploy the app and open the URL.
 
 ## Main Findings
 

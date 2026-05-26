@@ -1,0 +1,10 @@
+command:
+  - streamlit
+  - run
+  - app.py
+
+resources:
+  - name: sql-warehouse
+    sql_warehouse:
+      id: "PASTE_YOUR_SQL_WAREHOUSE_ID_HERE"
+      permission: CAN_USE

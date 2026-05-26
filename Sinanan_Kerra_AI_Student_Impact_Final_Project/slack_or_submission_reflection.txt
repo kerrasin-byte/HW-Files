@@ -1,0 +1,3 @@
+Final Project Reflection
+
+My final project explores how Generative AI use relates to student outcomes like GPA change, skill retention, anxiety, dependency, and burnout risk. The hardest part was turning the cleaned dataset into an app that could update charts and metrics based on user filters. If I had more time, I would add a predictive model to estimate burnout risk based on AI usage, study habits, and anxiety levels.

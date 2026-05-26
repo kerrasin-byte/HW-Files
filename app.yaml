@@ -1,0 +1,18 @@
+command: [
+  "streamlit", 
+  "run",
+  "app.py"
+]
+
+resources:
+  - name: main-warehouse
+    warehouse:
+      id: 264d126b27bbf34e
+
+permissions:
+  api_scopes:
+    - sql
+
+env:
+  - name: WAREHOUSE_ID
+    value: 264d126b27bbf34e
